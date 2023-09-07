@@ -2,7 +2,7 @@
 # Name:-Namrata Bhosale
 # Subject:-NLP
 # Roll no:-08 , Batch:-B1
-# Title:- Tokenization,StopWords,Lemmatization,Part-of-speech Tagging.
+# Title:- Text Pre-Processing using NLP operations:perform Tokenization,StopWords,Lemmatization,Part-of-speech Tagging.
 
 # Title:-Tokenization
 # Import Library
