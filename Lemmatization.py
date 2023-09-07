@@ -1,11 +1,18 @@
+#Assignment No-01
+#Name:-Namrata Bhosale
+#Roll no:-08, Batch:-B1
+#Title:-Lemmatization
+
+#Import Library
 import spacy
 nlp = spacy.load("en_core_web_sm")
 conference_help_text = (
-   "Gus is helping organize a developer"
-     " conference on Applications of Natural Language"
-     " Processing. He keeps organizing local Python meetups"
-     " and several internal talks at his workplace."
+   "Robert was a good king."
+     " He wanted to bring peace to his kingdom."
+     " There were many others who wanted to become king."
+     "They started plotting against him."
  )
+#Lemmatization
 conference_help_doc = nlp(conference_help_text)
 for token in conference_help_doc:
      if str(token) != str(token.lemma_):
